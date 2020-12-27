@@ -1,0 +1,98 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+}
+@model OnlineShopDemo.Models.UserModel.Account
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="~/User/css/core-style.css">
+    <link rel="stylesheet" href="~/User/style.css">
+</head>
+<body>
+
+    <video class="video" autoplay muted loop id="myVideo">
+        <source src="~/Admin/Video/MADE goes outdoors.mp4" type="video/mp4">
+    </video>
+
+    <div class="lg-model">
+        <div class="model-content">
+
+            <form asp-action="Signin" asp-controller="Signin">
+                <img src="/img/core-img/logo.png" class="pop-up-logo" alt="">
+                <p>Login to continue</p>
+                <input type="text" class="login-form" id="username" placeholder="Email or username" asp-for="@Model.username">
+                <input type="text" class="login-form" id="password" placeholder="Password" asp-for="@Model.pass">
+                <button type="submit" name="login-btn" class="btn amado-btn login-btn">Login</button>
+                <div class="change-su">
+                    <h2>
+                        Don't have account? <h1 id="signup-text">Sign up</h1>
+                    </h2>
+                </div>
+                <button title="Close (Esc)" type="button" class="mfp-close lg-close" id="close">×</button>
+            </form>
+        </div>
+    </div>
+
+    <!--Đăng ký-->
+
+    <div class="su-model">
+        <div class="model-content">
+            <form>
+                <img src="/img/core-img/logo.png" class="pop-up-logo" alt="">
+                <p>Sign up to continue</p>
+                <input type="text" class="login-form" id="username" placeholder="Choose your username">
+                <input type="text" class="login-form" id="email" placeholder="Email">
+
+                <input type="text" class="login-form" id="password" placeholder="Password">
+                <input type="text" class="login-form" id="r-passwprd" placeholder="Retype password">
+
+                <button type="submit" name="login-btn" class="btn amado-btn login-btn">Sign up</button>
+
+                <h2>
+                    Already have account? <h1 id="login-text">Sign in</h1>
+                </h2>
+
+                <button title="Close (Esc)" type="button" class="mfp-close lg-close" id="close2">×</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    document.getElementById('signin-btn').addEventListener('click',
+        function () {
+            document.querySelector('.lg-model').style.display = 'flex';
+        })
+    document.getElementById('close').addEventListener('click',
+        function () {
+            document.querySelector('.lg-model').style.display = 'none';
+
+        })
+    document.getElementById('login-text').addEventListener('click',
+        function () {
+            document.querySelector('.lg-model').style.display = 'flex';
+            document.querySelector('.su-model').style.display = 'none';
+        })
+    document.getElementById('close2').addEventListener('click',
+        function () {
+            document.querySelector('.su-model').style.display = 'none';
+
+        })
+    document.getElementById('signup-btn').addEventListener('click',
+        function () {
+            document.querySelector('.su-model').style.display = 'flex';
+
+        })
+    document.getElementById('signup-text').addEventListener('click',
+        function () {
+            document.querySelector('.lg-model').style.display = 'none';
+            document.querySelector('.su-model').style.display = 'flex';
+        })
+</script>

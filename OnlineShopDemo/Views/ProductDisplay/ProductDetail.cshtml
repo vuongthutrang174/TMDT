@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewData["Title"] = "DetailProduct";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model OnlineShopDemo.Models.UserModel.CartSelect
+@using OnlineShopDemo.Models.UserModel
+
+@{ 
+    CartSelect prod = new CartSelect();
+    prod = this.Model;
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+     
+        <div class="single-product-area section-padding-100 clearfix">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb mt-50">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#">Furniture</a></li>
+                                <li class="breadcrumb-item"><a href="#">Chairs</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">white modern chair</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <form class="cart clearfix" method="post" enctype="multipart/form-data" asp-controller="ProductDisplay" asp-action="AddCart">
+                    <div class="row">
+                        <div class="col-12 col-lg-7">
+                            <div class="single_product_thumb">
+                                <img class="product-img" src="~/@Model.proDisplay.Image" alt="photo">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5">
+                            <div class="single_product_desc">
+                                <!-- Product Meta Data -->
+                                <div class="product-meta-data">
+                                    <div class="line"></div>
+                                    <p class="product-price">@Model.proDisplay.Price</p>
+                                    <a href="product-details.html">
+                                        <h6>@Model.proDisplay.productName</h6>
+                                    </a>
+                                    <!-- Ratings & Review -->
+                                    <div class="ratings-review mb-15 d-flex align-items-center justify-content-between">
+                                        <div class="ratings">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="review">
+                                            <a href="#">Write A Review</a>
+                                        </div>
+                                    </div>
+                                    <!-- Avaiable -->
+                                    <p class="avaibility"><i class="fa fa-circle"></i> In Stock</p>
+                                </div>
+
+                                <div class="short_overview my-5">
+                                    <p>@Model.proDisplay.Description</p>
+                                </div>
+
+                                <!-- Add to Cart Form -->
+                                <p>Choose number</p>
+
+                                <div class="qty cart-btn d-flex mb-50">
+
+                                    <div class="quantity ">
+                                        <input type="submit" hidden />
+
+                                        <input placeholder="Choose number..." asp-for="@Model.Soluong" type="number" class="qty-text shop-btn" id='qty' min="0" max="@Model.proDisplay.Conlai" step="1" pattern="[0-9]*" />
+                                    </div>
+
+                                </div>
+
+                                <input asp-for="@Model.proDisplay.MaSP" hidden />
+                                <button class="amado-btn" type="submit" name="addtocart">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        

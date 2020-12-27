@@ -1,0 +1,357 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@model OnlineShopDemo.Models.ViewModel.StatisticViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Share/_Layout.cshtml";
+}
+
+<div class="row" style="background: lightgray; width:100%;height:100%; margin: auto; padding: 0;">
+    <div class="row" id="FirstRow">
+        <h3 id="title" >Statictical</h3>
+        <div id="Datepicker">
+            <form method="post" enctype="multipart/form-data" asp-controller="Statistical" asp-action="Statistic">
+                <input asp-for="@Model.date" type="date" name="date">
+                <button type="submit">View</button>
+               
+            </form>
+        </div>
+    </div>
+    <div class="row" id="SecondRow">
+        <div class="col-5 default" id="Information">
+            <div id="InfoContent">
+                <div class="row" id="Row1">
+                    <div class="col-6" style="padding: 0;">
+                        <div id="left">
+                            <h5 style="color: #fbb710; font-size: 23px;" >Customer</h5>
+                            <i class="fas fa-users"></i>
+                            <h5 style=" font-size: 34px ">@Model.SLKhachHang</h5>
+                        </div>
+                    </div>
+                    <div class="col-6" style="padding: 0;">
+                        <div id="right">
+                            <h5 style="color: #fbb710; font-size: 23px;">Revenue</h5>
+                            <i class="fas fa-dollar-sign"></i>
+                            <h5 style=" font-size: 34px; ">@Model.SlDoanhThu</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" id="Row2">
+                    <div class="col-6" style="padding: 0;">
+                        <div id="left2">
+                            <h5  style="color: #fbb710; font-size: 23px;">Order</h5>
+                            <i class="fas fa-shopping-cart"></i>
+                            <h5 style=" font-size: 34px; ">@Model.SLDatHang</h5>
+                        </div>
+                    </div>
+                    <div class="col-6" style="padding: 0;">
+                        <div id="right2">
+                            <h5 style="color: #fbb710; font-size: 23px;" >Growth</h5>
+                            <i class="fas fa-arrow-up"></i>
+                            <h5 style=" font-size: 34px; ">@Model.SLTangTruong</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-7" id="revenuechart">
+            <div id="RevenueChartContent">
+                <canvas id="myChart" ></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="ThirdRow">
+        <div class="col-4" id="TopProduct">
+            <div id="TopProductContent">
+                <div id="demo" class="carousel slide" data-ride="carousel"
+                     style="border-radius: 5px; padding:0; width: 100%;  height: 100%;">
+
+                    <!-- Indicators -->
+
+                    <ul class="carousel-indicators">
+                        @for (int i = 0; i < @Model.DSTopSP.Count; i++)
+                        {
+                            @if (@i == 0)
+                            {
+                                <li data-target="#demo" data-slide-to="@i" class="active"></li>
+                            }
+                            else
+                            {
+                                <li data-target="#demo" data-slide-to="@i"></li>
+                            }
+
+                        }
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner" style="border-radius: 5px; padding:0; width: 100%;  height: 100%;">
+                        @if (@Model.DSTopSP.Count == 0)
+                        {
+
+                            <div class="carousel-item active" style="border-radius: 5px; padding:0; width: 100%;  height: 100%;">
+                                <img src="~/Admin/DashBoard/img/image-default.png" alt="~/Admin/DashBoard/img/image-default.png"
+                                     width="1100" height="500">
+                                <div class="carousel-caption">
+
+                                </div>
+                            </div>
+                        }
+                        @for (int i = 0; i < @Model.DSTopSP.Count; i++)
+                        {
+
+                            @if (@i == 0)
+                            {
+
+                                <div class="carousel-item active" style="border-radius: 5px; padding:0; width: 100%;  height: 100%;">
+                                    <img src="~/@Model.DSTopSP[i].Image" alt="~/Admin/DashBoard/img/image-default.png"
+                                         width="1100" height="500">
+                                    <div class="carousel-caption">
+                                        <h3 style=" font-size: 34px; color: #fbb710;">No.@i</h3>
+                                        <p style=" font-size: 34px; color: #fbb710;">@Model.DSTopSP[i].TenSP</p>
+                                    </div>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="carousel-item" style="border-radius: 5px; padding:0; width: 100%;  height: 100%;">
+                                    <img src="~/@Model.DSTopSP[i].Image" alt="~/Admin/DashBoard/img/image-default.png" width="1100" height="500">
+                                    <div class="carousel-caption">
+                                        <h3 style=" font-size: 34px; color: #fbb710;">No.@i</h3>
+                                        <p style=" font-size: 34px; color: #fbb710;">@Model.DSTopSP[i].TenSP</p>
+                                    </div>
+                                </div>
+                            }
+                        }
+
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4" id="AreaChart">
+            <div id="AreaChartContent">
+                <canvas id="myPieChart">
+                </canvas>
+            </div>
+        </div>
+        <div class="col-4" id="AreaChart">
+            <div id="Area">
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="FourthRow">
+        <div style="width: 100%;height:100%;">
+            <div class="col-12" id="ProductList">
+
+                <div class="row" id="ProductFilter">
+
+                    <div class="col-9 fBtn" style=" padding:0; justify-content:flex-start">
+                        <h5 style="        
+                                            padding-top:5px;
+                                            box-sizing: border-box;
+                                            width:100px;
+                                            height: 36px;
+                                            text-align: center;
+                                            border: none;
+                                            background: #fbb710;
+                                            color: white;
+                                            border-radius: 5px;">
+                        Order
+                        </h5>
+
+
+                        <div style=" margin-left: 55px; display:flex; flex-direction: row;justify-content:flex-start">
+                            <div id="searchProduct" class="searchbox">
+                                <i class="fas fa-search"></i>
+                                <input id="SerchBox" onkeyup="myFunction()" type="text" placeholder="Search...">
+                            </div>
+                            @*<div id="addnew" onclick="OpenForm()">
+                                <button class="FilterBtn">
+                                    Add new
+                                </button>
+                            </div>
+                            <div id="addnew" onclick="OpenFilter()">
+                                <button class="FilterBtn">
+                                    Advanced Filter
+                                </button>
+                            </div>*@
+                        </div>
+                    </div>
+
+                    <div class="col-3 fBtn">
+                      
+                    </div>
+
+                </div>
+
+                <div class="row" id="List">
+
+                    <div id="ProductTable">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="table-title">ID</th>
+                                    <th class="table-title">Date</th>
+                                    <th class="table-title">Customer</th>
+                                    <th class="table-title">Price</th>
+                                    <th class="table-title">Phone</th>
+                                    <th class="table-title">Check</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                              
+                                @if (Model.DSDH.Count == 0)
+                                {
+                                    <tr>
+                                        <td style="font-weight:bold; font-size: 20px;">NO ORDER LEFT</td>
+                                    </tr>
+                                }
+                                else
+                                {
+                                    @foreach (var ord in Model.DSDH)
+                                    {
+                                        <tr>
+                                            <td>@ord.MaDH</td>
+                                            <td>@ord.NgayDat </td>
+                                            <td>@ord.TenKH </td>
+                                            <td>@ord.TongTien</td>
+                                            <td>@ord.sdt</td>
+                                            <td>
+                                                <a asp-controller="Order" asp-action="OrderDetail"
+                                                   asp-route-id="@ord.MaDH">
+                                                    <i class="fas fa-cog"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+
+                                }
+                            </tbody>
+
+                    </table>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+
+<script>
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: ['thang 1', 'thang 2', 'thang 3', 'thang 4', 'thang 5', 'thang 6','thang 7', 'thang 8', 'thang 9', 'thang 10', 'thang 11', 'thang 12'],
+            datasets: [{
+                label: 'Revenue',
+                data: [@Model.DTtheoThang[0],
+                    @Model.DTtheoThang[1],
+                @Model.DTtheoThang[2],
+                @Model.DTtheoThang[3],
+                @Model.DTtheoThang[4],
+                @Model.DTtheoThang[5],
+                @Model.DTtheoThang[6],
+                 @Model.DTtheoThang[7],
+                 @Model.DTtheoThang[8],
+                 @Model.DTtheoThang[9],
+                  @Model.DTtheoThang[10],
+                  @Model.DTtheoThang[11]
+                ],
+                fill: false,
+                backgroundColor: [
+
+                   
+                    'rgba(75, 192, 192, 0.2)',
+              
+                ],
+                borderColor: [
+                    
+                    
+                    'rgba(75, 192, 192, 1)',
+      
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            title: {
+                fontSize: 40,
+					display: true,
+					text: 'Area'
+				},
+            responsive: true,
+            maintainAspectRatio: true,
+            showScale: false,
+        }
+    });
+</script>
+<script>
+       var ctx = document.getElementById('myPieChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Red', 'Blue'],
+                datasets: [{
+                    label: '# of Votes',
+                    data: [@Model.SLDHNoiThanh, @Model.SLDHthanhPho],
+                    backgroundColor: [
+                        'rgba(255, 99, 132,1)',
+                        'rgba(54, 162, 235,1)',
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                title: {
+                    fontSize: 40,
+					display: true,
+					text: 'Area'
+				},
+
+                    responsive: true,
+                maintainAspectRatio: true,
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+        }
+    });
+</script>
+
+<script>
+    function changeOption() {
+        var Month = document.getElementById("MonthDropBox");
+        for (var i = 0; i < Month.options.length; i++)
+        {
+            if (Month.options[i].selected == true) {
+                 console.log(Month.options[i]);
+                 Month.options[i].removeAttribute('selected');
+            }  
+        }
+        Month.options[Month.options.selectedIndex].setAttribute("selected", "selected");
+        console.log(Month);
+    }
+</script>

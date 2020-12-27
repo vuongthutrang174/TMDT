@@ -1,0 +1,158 @@
+﻿
+@{
+    ViewData["Title"] = "OrderDetail";
+    Layout = "~/Views/Share/_Layout.cshtml";
+}
+
+
+@model OnlineShopDemo.Models.ViewModel.OrderViewModel
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div class="col-12" id="ProductList">
+
+    <div class="row" id="EditForm">
+
+        <div class="row" id="EditTitle">
+
+            <div class="col-9 fBtn">
+                <h5 class="title" >ORDER DETAIL</h5>k
+                <div style=" display:flex; flex-direction: row;">
+                    <div id="addnew" onclick="OpenForm()">
+
+                    </div>
+                    <div id="addnew" onclick="OpenFilter()">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 fBtn">
+                @*<div id="searchProduct" class="searchbox">
+                    <i class="fas fa-search"></i>
+                    <input id="SerchBox" onkeyup="myFunction()" type="text" placeholder="Search...">
+                </div>*@
+            </div>
+
+        </div>
+     
+        <form Id="formEditProduct" enctype="multipart/form-data" method="post"
+              asp-controller="Order" asp-action="OrderVerify">
+
+            <div class="EditContainer">
+
+                <div class="col-xl-6 display">
+
+                    <div id="ProductTable">
+                        <table>
+                            <thead style="background:lightgrey;">
+                                <tr style="background:lightgrey;">
+                                    <th style="background:white; text-align:center;border: 1px solid lightgrey; " class="table-title">Name</th>
+                                    <th style="background:white; text-align:center; border: 1px solid lightgrey; " class="table-title">Count</th>
+                                    <th style="background:white; text-align:center; border: 1px solid lightgrey; " class="table-title">Price</th>
+                                </tr>
+                            </thead>
+                            <tbody style="background:lightgrey;">
+                                @foreach (var ord in Model.ChiTietDH)
+                                {
+                                    <tr>
+                                        <td style="background:white; text-align:center; border: 1px solid lightgrey; ">@ord.TenSP</td>
+                                        <td style="background:white; text-align:center; border: 1px solid lightgrey; ">@ord.Soluong</td>
+                                        <td style="background:white; text-align:center; border: 1px solid lightgrey; ">@ord.Gia </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+
+
+
+                </div>
+
+
+                <div class="col-xl-3" id="ProductIMG">
+                    <div id="container">
+
+                        <div class="row" id="line">
+                            <label for="Text">Product ID</label>
+                            <input asp-for="DH.MaDH" id="pass" type="text" readonly>
+                            <span asp-validation-for="DH.MaDH"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Text">Product Name</label>
+                            <input asp-for="DH.TenKH" id="pass" type="text">
+                            <span asp-validation-for="DH.TenKH"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Text">Product Name</label>
+                            <input asp-for="DH.DiaChi" id="pass" type="text">
+                            <span asp-validation-for="DH.DiaChi"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Text">Product Name</label>
+                            <input asp-for="DH.Quan" id="pass" type="text">
+                            <span asp-validation-for="DH.Quan"></span>
+                        </div>
+
+
+                        <div class="row" id="line">
+                            <label for="Text">Product Name</label>
+                            <input asp-for="DH.ThanhPho" id="pass" type="text">
+                            <span asp-validation-for="DH.ThanhPho"></span>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-xl-3 ">
+                    <div class="row" id="line">
+                        <label for="Text">Product ID</label>
+                        <input asp-for="DH.MaDvVanChuyen" id="pass" type="text" readonly>
+                        <span asp-validation-for="DH.MaDH"></span>
+                    </div>
+
+                    <div class="row" id="line">
+                        <label for="Text">Product Name</label>
+                        <input asp-for="DH.Email" id="pass" type="text">
+                        <span asp-validation-for="DH.Email"></span>
+                    </div>
+
+                    <div class="row" id="line">
+                        <label for="Text">Product Name</label>
+                        <input asp-for="DH.sdt" id="pass" type="text">
+                        <span asp-validation-for="DH.sdt"></span>
+                    </div>
+
+                    <div class="row" id="line">
+                        <label for="Text">Product Name</label>
+                        <input asp-for="DH.NgayDat" id="pass" type="text">
+                        <span asp-validation-for="DH.NgayDat"></span>
+                    </div>
+
+                    <div class="row" id="line">
+                        <label for="Text">Product Name</label>
+                        <input asp-for="DH.TongTien" id="pass" type="text">
+                        <span asp-validation-for="DH.TongTien"></span>
+                    </div>
+
+
+                    <div class="row" id="line">
+                        <button type="submit" id="SaveBtn"> Check </button>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+

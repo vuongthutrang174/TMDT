@@ -1,0 +1,87 @@
+﻿@model OnlineShopDemo.Models.LogInModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Funiture</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="~/Admin/Login/layout2.css">
+    <link rel="stylesheet" type="text/css" href="/Admin/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="row" id="intro">
+        <div class="col-xl-2"></div>
+        <div class="col-xl-8" id="main-contain">
+            <h1>Different by Design</h1>
+            <%: Html.ValidationMessageFor(model => model.Email) %>
+            <p>
+                We find the best independent designers and makers
+                around the world to create your pieces.
+                Producing designs in small batches keeps costs low -
+                and we think it’s a more responsible way of working.
+                From potters in Portugal to needle-workers in Nottingham,
+                discover how your items get MADE.We find the best independent designers and makers
+                around the world to create your pieces.
+                Producing designs in small batches keeps costs low -
+                and we think it’s a more responsible way of working.
+                From potters in Portugal to needle-workers in Nottingham,
+                discover how your items get MADE.
+            </p>
+        </div>
+        <div class="col-xl-2"></div>
+    </div>
+
+    <form id="loginForm" method="post" action="@Url.Action("Login", "Login")">
+        <div id="container">
+
+            <div class="row">
+                <h1>Login to continue</h1>
+            </div>
+
+            <div class="row" id="UName">
+                <label for="UserName">UserName</label>
+                <input asp-for="UserName" id="Name" type="text" placeholder="Username" repuired>
+                <span id="val" asp-validation-for="UserName"></span>
+            </div>
+
+            <div class="row" id="pass">
+                <label for="Password">Password</label>
+                <input asp-for="PassWord" id="pass" type="password" placeholder="Password" repuired>
+                <span id="val" asp-validation-for="PassWord"></span>
+
+            </div>
+
+            <div class="row" id="remMe">
+                <div>
+                    <input asp-for="RememberMe" id="remember" type="checkbox" checked="checked" name="remember" required>Remember me
+                </div>
+                <a href="#">Forgot password</a>
+            </div>
+
+            <div class="row" id="Btn">
+                <button id="btn" type="submit">Log in</button>
+            </div>
+            <div class="row" id="signup">
+                <a href="https://localhost:44361/login/SignUp">Sign up</a>
+                <a href=""></a>
+            </div>
+        </div>
+    </form>
+
+    <script src="~/Admin/jquery.min.js"></script>
+    <script src="/Admin/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
+

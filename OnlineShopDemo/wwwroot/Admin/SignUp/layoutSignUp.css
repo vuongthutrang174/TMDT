@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Playfair Display; 
+}
+
+body
+{  
+    background:linear-gradient(180deg,rgba(0,0,0,0.5) 100% ,rgba(30,64,88,0.7)), url(../img/SignUpBG.jpg) no-repeat center fixed;
+    background-position: center;
+    background-attachment: fixed; 
+    background-size: cover;
+    width: 100vh; 
+}
+
+form
+{
+    width: 550px;
+    height: 100vh;
+    position : absolute;
+    top: 0;
+    right:0;
+    background: white;
+    z-index: -1;
+}
+input
+{
+    border: 1px solid lightgrey;
+    padding-left: 20px;
+    color: black;
+    border-radius: 5px;
+    background: none;
+    height: 100%;  
+}
+button
+{
+    width: 70px;
+    height: 30px;
+    border: none;
+    background: lightgrey;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#container
+{
+    width: 550px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+#container #UName,#pass,#mail
+{
+   display: flex;
+   flex-direction: column;
+}
+
+
+#container label
+{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#container h1
+{
+    color: black;
+    width: 450px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+#container input
+{
+    width: 450px;
+    height: 50px;
+}
+#container button
+{
+    width: 450px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#container #remember
+{
+   width: 20px;
+   height: 20px;
+   margin: 0;
+}
+#intro #main-contain
+{
+    text-align: justify;
+    font-size:15px;
+    color: white;
+    width: 930px;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+#intro #main-contain h1
+{
+    font-size: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+#container #val
+{
+    visibility:visible;
+    color: red;
+}

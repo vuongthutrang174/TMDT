@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+
+.container-fluid
+{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+#navbar
+{
+    position: absolute;
+    width: 100vw;
+    z-index: 3;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+#Logo
+{
+    font-family: Montserrat;
+    font-weight: bold;
+    color: white;
+    padding: 0;
+}
+#Logo h1
+{
+    margin:0;
+    font-weight: 600;
+}
+#nav ul li
+{
+    font-size: 20px;
+    color: white;
+    font-family: Montserrat;
+    display: inline;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 50px;
+}
+#nav ul
+{
+    margin: 0;
+    padding-left:0;
+    padding-top: 10px;
+    float: right;
+}
+
+#nav li #last
+{
+    padding-right: 0px;
+}
+
+#nav
+{
+    padding: 0 0px;
+}
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.layer
+{
+    z-index: 1;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    opacity: 0.3;
+}
+
+#intro
+{
+    position: relative;
+    text-align: center;
+    z-index: 5;
+    transition: all ease-in-out;
+}
+
+#intro #main-contain h1,p
+{
+    font-family: Playfair Display; 
+    font-weight: 500;
+    margin-top:300px;
+    color: white;
+}
+#intro #main-contain #myBtn
+{
+        font-family: Playfair Display; 
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    background: rgba(255,255,255,0.7);
+    width: 150px;
+    height: 50px;
+    border: 1px solid white;
+
+}
+#intro #main-contain #myBtn2
+{
+    color:black;
+    font-family: Playfair Display; 
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    background: rgba(255,255,255,1);
+    width: 150px;
+    height: 50px;
+    border: 1px solid white;
+    margin-left: 50px;
+}
+.hide
+{
+    visibility: hidden;
+}

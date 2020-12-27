@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="~/Admin/Login/layout.css">
+    <link rel="stylesheet" type="text/css" href="/Admin/css/bootstrap.min.css">
+    <title>Funiture</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row" id="navbar">
+            <div class="col-xl-3" id="Logo">
+                <h1>FURNITURE.</h1>
+            </div>
+            <div class="col-xl-3"></div>
+            <nav class="col-xl-6" id="nav">
+                <ul>
+                    <a href="#">
+                        <li>About</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact</li>
+                    </a>
+                    <a href="#">
+                        <li>Services</li>
+                    </a>
+                    <a href="#">
+                        <li>Profolio</li>
+                    </a>
+                    <a href="#">
+                        <li id="last">Our Team</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="row" id="intro">
+            <div class="col-xl-2"></div>
+            <div class="col-xl-8" id="main-contain">
+                <h1>Different by Design</h1>
+                <p>
+                    We find the best independent designers and makers
+                    around the world to create your pieces.
+                    Producing designs in small batches keeps costs low -
+                    and we think itâ€™s a more responsible way of working.
+                    From potters in Portugal to needle-workers in Nottingham,
+                    discover how your items get MADE.
+                </p>
+                <button onclick="location.href = 'https://localhost:44361/login/login';" id="myBtn">Sign In</button>
+                <button  onclick="location.href = 'https://localhost:44361/Home/Index';"id="myBtn2">Shop now</button>
+            </div>
+            <div class="col-xl-2"></div>
+        </div>
+
+        <div class="layer"></div>
+        <div class="vid">
+            <video autoplay muted loop id="myVideo">
+                <source src="/Admin/Video/MADE goes outdoors.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <script src="/Admin/jquery.min.js"></script>
+    <script src="/Admin/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+

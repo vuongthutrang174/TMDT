@@ -1,0 +1,483 @@
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.deps.json
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.runtimeconfig.json
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.runtimeconfig.dev.json
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.dll
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorAssemblyInfo.cache
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorAssemblyInfo.cs
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.AssemblyInfoInputs.cache
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.AssemblyInfo.cs
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.TagHelpers.input.cache
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.TagHelpers.output.cache
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorCoreGenerate.cache
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_UserLayout.g.cshtml.cs
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorTargetAssemblyInfo.cache
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorTargetAssemblyInfo.cs
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.pdb
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.Views.dll
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.Views.pdb
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.Views.pdb
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.dll
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.pdb
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.csproj.CopyComplete
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Login\Index.g.cshtml.cs
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Login\Login.g.cshtml.cs
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.csprojAssemblyReference.cache
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Share\_Layout.g.cshtml.cs
+C:\Users\HP\Downloads\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\DashBoard\Home.g.cshtml.cs
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.dll
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.pdb
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.csprojAssemblyReference.cache
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorAssemblyInfo.cache
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorAssemblyInfo.cs
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.AssemblyInfoInputs.cache
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.AssemblyInfo.cs
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\bin\Debug\netcoreapp2.1\appsettings.json
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.deps.json
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.runtimeconfig.json
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.runtimeconfig.dev.json
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.dll
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.pdb
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.Views.dll
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.Views.pdb
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.TagHelpers.input.cache
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.TagHelpers.output.cache
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorCoreGenerate.cache
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\DashBoard\Home.cshtml.g.cs
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Login\Index.cshtml.g.cs
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Login\Login.cshtml.g.cs
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Share\_Layout.cshtml.g.cs
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_UserLayout.cshtml.g.cs
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorTargetAssemblyInfo.cache
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorTargetAssemblyInfo.cs
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.Views.pdb
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.csproj.CopyComplete
+D:\University\Năm 3 HK 1\OnlineShopDemo\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Login\SignUp.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.deps.json
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.runtimeconfig.json
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.dll
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.pdb
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.Views.dll
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.Views.pdb
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorAssemblyInfo.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorAssemblyInfo.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.TagHelpers.input.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.TagHelpers.output.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorCoreGenerate.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_UserLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorTargetAssemblyInfo.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorTargetAssemblyInfo.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.Views.pdb
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.dll
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.pdb
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.csproj.CopyComplete
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\DashBoard\Home.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\Login.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\SignUp.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Share\_Layout.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.deps.json
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.runtimeconfig.json
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.dll
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.pdb
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.Views.dll
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.Views.pdb
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorAssemblyInfo.cache
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorAssemblyInfo.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.TagHelpers.input.cache
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.TagHelpers.output.cache
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorCoreGenerate.cache
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\Login.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\SignUp.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_UserLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Share\_Layout.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorTargetAssemblyInfo.cache
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorTargetAssemblyInfo.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.Views.pdb
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.dll
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.pdb
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\DeleteProduct.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\EditProduct.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\DashBoard\Home.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\DetailProduct.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryCreate.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryDelete.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryDetail.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryEdit.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Account\AccountDelete.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Account\AccountEdit.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Account\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryCreate.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryDelete.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryDetail.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryEdit.cshtml.g.cs
+C:\Users\ASUS\Desktop\Đồ Án\OnlineShopDemo-DBMS\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.deps.json
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.runtimeconfig.json
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.dll
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.pdb
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.Views.dll
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.Views.pdb
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorAssemblyInfo.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorAssemblyInfo.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.TagHelpers.input.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.TagHelpers.output.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorCoreGenerate.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Account\AccountDelete.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Account\AccountEdit.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Account\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryCreate.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryDelete.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryDetail.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryEdit.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\DashBoard\Home.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryCreate.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryDelete.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryDetail.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryEdit.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\Login.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\SignUp.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\DeleteProduct.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\DetailProduct.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\EditProduct.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_UserLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Share\_Layout.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorTargetAssemblyInfo.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorTargetAssemblyInfo.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.Views.pdb
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.dll
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.pdb
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.csproj.CopyComplete
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Statistical\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Statistical\Statistic.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Authorize\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Authorize\ViewUser.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\WareHouse.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Order\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Order\OrderDetail.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.deps.json
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.runtimeconfig.json
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.runtimeconfig.dev.json
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.dll
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.pdb
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.Views.dll
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.Views.pdb
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorAssemblyInfo.cache
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorAssemblyInfo.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.AssemblyInfoInputs.cache
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.AssemblyInfo.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.TagHelpers.input.cache
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.TagHelpers.output.cache
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorCoreGenerate.cache
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Account\AccountDelete.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Account\AccountEdit.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Account\Index.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Authorize\Index.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Authorize\ViewUser.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Cart\Index.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryCreate.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryDelete.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryDetail.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryEdit.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\Index.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Checkout\Change.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Checkout\Checkout.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Checkout\Index.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Checkout\Submit.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\DashBoard\Home.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryCreate.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryDelete.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryDetail.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryEdit.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\Index.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Signin.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\Login.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\SignUp.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Order\Index.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Order\OrderDetail.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\ProductDisplay\Index.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\ProductDisplay\ProductDetail.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\DeleteProduct.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\DetailProduct.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\EditProduct.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\WareHouse.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Share\_Layout.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shop\Index.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Signin\Index.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Statistical\Index.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Statistical\Statistic.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorTargetAssemblyInfo.cache
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorTargetAssemblyInfo.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.Views.pdb
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.dll
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.pdb
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.csproj.CopyComplete
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.csprojAssemblyReference.cache
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Cart\NoSelect.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Profile\Index.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shop\Filter.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Profile\UpdatePassWord.cshtml.g.cs
+C:\Users\ASUS\Downloads\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Profile\ChangePass.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.deps.json
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.runtimeconfig.json
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.dll
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.pdb
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.Views.dll
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.Views.pdb
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorAssemblyInfo.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorAssemblyInfo.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.TagHelpers.input.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.TagHelpers.output.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorCoreGenerate.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Account\AccountDelete.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Account\AccountEdit.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Account\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Authorize\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Authorize\ViewUser.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Cart\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Cart\NoSelect.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryCreate.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryDelete.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryDetail.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryEdit.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Checkout\Change.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Checkout\Checkout.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Checkout\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Checkout\Submit.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\DashBoard\Home.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryCreate.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryDelete.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryDetail.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryEdit.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Signin.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\Login.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\SignUp.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Order\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Order\OrderDetail.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\ProductDisplay\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\ProductDisplay\ProductDetail.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\DeleteProduct.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\DetailProduct.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\EditProduct.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\WareHouse.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Profile\ChangePass.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Profile\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Profile\UpdatePassWord.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Share\_Layout.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shop\Filter.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shop\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Signin\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Statistical\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Statistical\Statistic.cshtml.g.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorTargetAssemblyInfo.cache
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorTargetAssemblyInfo.cs
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.Views.pdb
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.dll
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.pdb
+C:\Users\ASUS\Desktop\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.deps.json
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.runtimeconfig.json
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.dll
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.pdb
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.Views.dll
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.Views.pdb
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorAssemblyInfo.cache
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorAssemblyInfo.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.TagHelpers.input.cache
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.TagHelpers.output.cache
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorCoreGenerate.cache
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Account\AccountDelete.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Account\AccountEdit.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Account\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Authorize\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Authorize\ViewUser.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Cart\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Cart\NoSelect.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryCreate.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryDelete.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryDetail.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryEdit.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Checkout\Change.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Checkout\Checkout.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Checkout\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Checkout\Submit.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\DashBoard\Home.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryCreate.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryDelete.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryDetail.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryEdit.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Signin.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\Login.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\SignUp.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Order\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Order\OrderDetail.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\ProductDisplay\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\ProductDisplay\ProductDetail.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\DeleteProduct.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\DetailProduct.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\EditProduct.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\WareHouse.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Profile\ChangePass.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Profile\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Profile\UpdatePassWord.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Share\_Layout.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shop\Filter.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shop\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Signin\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Statistical\Index.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Statistical\Statistic.cshtml.g.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorTargetAssemblyInfo.cache
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorTargetAssemblyInfo.cs
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.Views.pdb
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.dll
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.pdb
+C:\Users\ASUS\Desktop\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.csproj.CopyComplete
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.deps.json
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.runtimeconfig.json
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.runtimeconfig.dev.json
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.dll
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.pdb
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.Views.dll
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\bin\Debug\netcoreapp2.1\OnlineShopDemo.Views.pdb
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.csprojAssemblyReference.cache
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.AssemblyInfoInputs.cache
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.AssemblyInfo.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.csproj.CoreCompileInputs.cache
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorAssemblyInfo.cache
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorAssemblyInfo.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.TagHelpers.input.cache
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.TagHelpers.output.cache
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorCoreGenerate.cache
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Account\AccountDelete.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Account\AccountEdit.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Account\Index.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Authorize\Index.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Authorize\ViewUser.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Cart\Index.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Cart\NoSelect.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryCreate.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryDelete.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryDetail.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\CategoryEdit.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Category\Index.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Checkout\Change.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Checkout\Checkout.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Checkout\Index.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Checkout\Submit.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\DashBoard\Home.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryCreate.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryDelete.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryDetail.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\DeliveryEdit.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Delivery\Index.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Signin.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\Login.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Login\SignUp.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Order\Index.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Order\OrderDetail.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\ProductDisplay\Index.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\ProductDisplay\ProductDetail.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\DeleteProduct.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\DetailProduct.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\EditProduct.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Product\WareHouse.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Profile\ChangePass.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Profile\Index.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Profile\UpdatePassWord.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Share\_Layout.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shop\Filter.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shop\Index.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Signin\Index.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Statistical\Index.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\Razor\Views\Statistical\Statistic.cshtml.g.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorTargetAssemblyInfo.cache
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.RazorTargetAssemblyInfo.cs
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.Views.pdb
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.dll
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.pdb
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.genruntimeconfig.cache
+C:\Users\CHANGCHANG\Downloads\Nhom2_TuDangHuy-17110306_VoDangKhoa-17110319\OnlineShopDemo-DBMS(original) (2)\OnlineShopDemo-DBMS(original)\OnlineShopDemo\obj\Debug\netcoreapp2.1\OnlineShopDemo.csproj.CopyComplete

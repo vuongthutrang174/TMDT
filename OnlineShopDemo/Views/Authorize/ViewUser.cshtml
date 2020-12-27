@@ -1,0 +1,80 @@
+﻿
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model OnlineShopDemo.Models.ViewModel.AuthorizeViewModel
+@{
+    ViewData["Title"] = "AdminView";
+    Layout = "~/Views/Share/_Layout.cshtml";
+}
+
+<div class="col-12" id="ProductList">
+
+    <div class="row" id="ProductFilter">
+
+        <div class="col-9 fBtn">
+            <h5>ADMIN</h5>
+            <div style=" display:flex; flex-direction: row;">
+                <div id="addnew">
+                    <button type="button" onclick="location.href='@Url.Action("Index","Authorize")'" class="FilterBtn">
+                        View Admin
+                    </button >
+                </div>
+                <div   id="addnew">
+                    <button  type="button" onclick="location.href='@Url.Action("ViewUser", "Authorize")'" class="FilterBtn">
+                        View User
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-3 fBtn">
+            <div id="searchProduct" class="searchbox">
+                <i class="fas fa-search"></i>
+                <input id="SerchBox" onkeyup="myFunction()" type="text" placeholder="Search...">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="row" id="List">
+
+        <div id="ProductTable">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="table-title">ID</th>
+                        <th class="table-title">Image</th>
+                        <th class="table-title">Name</th>
+                        <th class="table-title">Email</th>
+                        <th class="table-title">Phone</th>
+                        <th class="table-title">Username</th>
+                        <th class="table-title">Authority</th>
+                        <th class="table-title"> Set as Admin </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var cus in Model.DSThongTin)
+                    {
+                        <tr>
+                            <td>@cus.MaKH</td>
+                            <td><img class="product-img" src="~/@cus.hinhanh" alt="photo"></td>
+                            <td>@cus.TenKH </td>
+                            <td>@cus.Email</td>
+                            <td>@cus.sdt</td>
+                            <td>@cus.TaiKhoan</td>
+                            <td>@cus.QuyenTruyCap</td>
+                            <td>
+                                <a asp-controller="Authorize" asp-action="Set"
+                                   asp-route-Username="@cus.TaiKhoan">
+                                    <i class="fas fa-cog"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+

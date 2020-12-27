@@ -1,0 +1,161 @@
+﻿
+@{
+    ViewData["Title"] = "DetailProduct";
+    Layout = "~/Views/Share/_Layout.cshtml";
+}
+
+@model OnlineShopDemo.Controllers.ViewProductModel
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div class="col-12" id="ProductList">
+
+    <div class="row" id="EditForm">
+        <div class="row" id="EditTitle">
+
+            <div class="col-9 fBtn">
+                <h5>PRODUCT</h5>
+                <div style=" display:flex; flex-direction: row;">
+                    <div id="addnew" onclick="OpenForm()">
+
+                    </div>
+                    <div id="addnew" onclick="OpenFilter()">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 fBtn">
+                <div id="searchProduct" class="searchbox">
+                    <i class="fas fa-search"></i>
+                    <input id="SerchBox" onkeyup="myFunction()" type="text" placeholder="Search...">
+                </div>
+            </div>
+
+        </div>
+        <form Id="formEditProduct" enctype="multipart/form-data" method="post"
+              asp-controller="Product" asp-action="Delete">
+
+            <div class="EditContainer">
+                <div class="col-xl-4" id="ProductIMG">
+                    <img src="~/@Model.proEdit.Image" alt="photo">
+                </div>
+
+                <div class="col-xl-4 ">
+                    <div id="container">
+
+                        <div class="row" id="line">
+                            <label for="Text">Product ID</label>
+                            <input asp-for="proEdit.MaSP" id="pass" type="text" readonly>
+                            <span asp-validation-for="proEdit.MaSP"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Text">Product Name</label>
+                            <input asp-for="proEdit.productName" id="pass" type="text" readonly>
+                            <span asp-validation-for="proEdit.productName"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Product Type">Product Type</label>
+                            <select asp-for="proEdit.productType" readonly>
+                                @foreach (var c in Model.CateList)
+                                {
+
+                                    @if (c.CateID == Model.proEdit.productType)
+                                    {
+                                        <option value="@c.CateID" selected="selected">@c.CateName</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@c.CateID">@c.CateName</option>
+                                    }
+
+                                }
+
+                            </select>
+                            <span asp-validation-for="proEdit.productType"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="text">Color</label>
+                            <select asp-for="proEdit.Color" readonly>
+                                <option>Red</option>
+                                <option>Yellow</option>
+                                <option>Blue</option>
+                                <option>Green</option>
+                                <option>Orange</option>
+                                <option>Violet</option>
+                                <option>Black</option>
+                                <option>White</option>
+                                <option>Gray</option>
+                            </select>
+                            <span asp-validation-for="proEdit.Color"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Text">Product Name</label>
+                            <input asp-for="@Model.Soluong.soluong" id="pass" type="text">
+                            <span asp-validation-for="@Model.Soluong.soluong"></span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-4 display">
+
+                    <div class="row" id="line">
+                        <label for="Text">Stock</label>
+                        <input asp-for="proEdit.Stock" id="pass" type="text" readonly>
+                        <span asp-validation-for="proEdit.Stock"></span>
+                    </div>
+
+                    <div class="row" id="line">
+                        <label for="Text">Discount</label>
+                        <input asp-for="proEdit.Discount" id="pass" type="text" readonly>
+                        <span asp-validation-for="proEdit.Discount"></span>
+                    </div>
+
+                    <div class="row" id="line">
+                        <label for="Password">Price</label>
+                        <input asp-for="proEdit.Price" id="pass" type="text" readonly>
+                        <span asp-validation-for="proEdit.Price"></span>
+                    </div>
+
+                    <div class="row" id="line">
+                        <label for="Password">Description</label>
+                        <textarea asp-for="proEdit.Description" id="" cols="30" rows="10" readonly></textarea>
+                        <span asp-validation-for="proEdit.Description"></span>
+                    </div>
+
+                    <div class="row" id="line">
+                        <p>Modify uccessfully at<br>@Model.proEdit.LastModify</p>
+                    </div>
+
+                    <div>
+                        <a asp-controller="Product" asp-action="EditProduct"
+                           asp-route-id="@Model.proEdit.MaSP">
+                            <i class="fas fa-pen"></i>
+                        </a>|
+                        <a asp-controller="Product" asp-action="DeleteProduct"
+                           asp-route-id="@Model.proEdit.MaSP">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>|
+
+                        <a asp-controller="Product" asp-action="WareHouse"
+                           asp-route-id="@Model.proEdit.MaSP">
+                            <i class="fas fa-warehouse"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+
+

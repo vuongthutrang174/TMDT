@@ -1,0 +1,176 @@
+﻿
+@{
+    ViewData["Title"] = "Checkout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using Microsoft.AspNetCore.Http
+@model OnlineShopDemo.Models.UserModel.Bill
+@{
+    double sum = 0;
+    for (int i = 0; i < Model.Select.Count; i++)
+    {
+        sum = sum + Model.Select[i].proDisplay.Price * Model.Select[i].Soluong;
+    }
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<div class="cart-table-area section-padding-100">
+    <div class="container-fluid">
+        <div class="checkout_details_area mt-50 clearfix">
+
+            <form asp-action="Change" asp-controller="Checkout" method="post" id="frm-checkout">
+                <div class="row">
+                    <div class="col-12 col-lg-8 cart2">
+                        <div class="cart-title mt-50">
+                            <h2>Your Cart</h2>
+                        </div>
+                        <div class="cart-table clearfix">
+                            <table class="table table-responsive">
+                                <thead>
+                                    <tr>
+
+                                        <th></th>
+                                        <th>Name</th>
+                                        <th>Price</th>
+                                        <th>Quantity</th>
+
+                                    </tr>
+                                </thead>
+                                @for (int i = 0; i < Model.Select.Count; i++)
+                                {
+
+                                    <tbody>
+                                        <tr>
+                                            <input asp-for="@Model.Select[i].proDisplay.MaSP" hidden />
+                                            <td class="cart_product_img">
+                                                <a href="#"><img src="/@Model.Select[i].proDisplay.Image" alt="Product"></a>
+                                            </td>
+
+                                            <td class="cart_product_desc">
+                                                <input asp-for="@Model.Select[i].proDisplay.productName" readonly />
+                                            </td>
+                                            <td class="price" id="price">
+                                                <span> @Model.Select[i].proDisplay.Price </span>
+                                            </td>
+                                            <td class="qty">
+                                                <div class="qty-btn d-flex">
+                                                    <div class="quantity">
+                                                        <input type="submit" hidden />
+                                                        <input asp-for="@Model.Select[i].Soluong" readonly />
+                                                    </div>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+
+                                    </tbody>
+                                }
+
+                            </table>
+
+
+                        </div>
+                    </div>
+                    <div class="row">
+
+
+                        <div class="col-12 col-lg-8">
+
+                            <div class="cart-title">
+                                <h2>Checkout</h2>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-12 mb-3">
+                                    <input type="text" class="form-control" id="name" placeholder="Name" required asp-for="@Model.Client.TenKH">
+                                </div>
+
+
+                                <div class="col-12 mb-3">
+                                    <input type="email" class="form-control" id="email" placeholder="Email" asp-for="@Model.Client.Email">
+                                </div>
+
+                                <div class="col-12 mb-3">
+                                    <input type="text" class="form-control" id="street_address" placeholder="Address" asp-for="@Model.Client.DiaChi">
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <select class="nice-select w-100" id="city" asp-for="@Model.Client.ThanhPho" onchange=" Cal()">
+                                        <option disabled selected="selected"> Chọn dịch vụ vận chuyển... </option>
+                                        @for (int i = 0; i < Model.tinhthanh.Count; i++)
+                                        {
+                                            <option value="@Model.tinhthanh[i]">@Model.tinhthanh[i]</option>
+
+                                        }
+
+                                    </select>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <input type="text" class="form-control" id="dis" placeholder="District" asp-for="@Model.Client.Quan">
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <select class="nice-select w-100" id="service" asp-for="@Model.Vanchuyen.MaDVVanChuyen" onchange="Cal()">
+                                        <option disabled selected="selected"> Chọn dịch vụ vận chuyển... </option>
+                                        @for (int i = 0; i < Model.danhsach.Count; i++)
+                                        {
+                                            <option value="@Model.danhsach[i].MaDVVanChuyen">@Model.danhsach[i].TenDv</option>
+
+                                        }
+
+                                    </select>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <input type="text" class="form-control" id="sdt" placeholder="Phone Number" required asp-for="@Model.Client.sdt">
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <textarea name="comment" class="form-control w-100" id="comment" cols="30" rows="10" placeholder="Leave a comment about your order"></textarea>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="custom-control custom-checkbox d-block mb-2">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                        <label class="custom-control-label" for="customCheck2">Create an accout</label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="cart-summary">
+                            <h5>Cart Total</h5>
+                            <ul class="summary-table">
+                                <li><span>subtotal:</span> <span>@sum</span></li>
+                                <li><span>delivery:</span> <span> <input readonly id="shipping" value="" />  </span></li>
+                                <li><span>total:</span> <span> <input readonly id="total" value="@Model.Price" </span> </li>
+                            </ul>
+
+                            <div class="payment-method">
+                                <!-- Cash on delivery -->
+                                <div class="custom-control custom-checkbox mr-sm-2">
+                                    <input type="checkbox" class="custom-control-input" id="cod" checked>
+                                    <label class="custom-control-label" for="cod">Cash on Delivery</label>
+                                </div>
+
+                            </div>
+
+                            <div class="cart-btn mt-100">
+                                <a href="#" class="btn amado-btn w-100">Checkout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+<script>
+    function Cal() {
+        document.getElementById('frm-checkout').submit();
+
+    }
+</script>

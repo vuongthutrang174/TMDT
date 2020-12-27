@@ -1,0 +1,91 @@
+﻿
+
+@model OnlineShopDemo.Models.ViewModel.DeliveryViewModel
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "DeliveryDetail";
+    Layout = "~/Views/Share/_Layout.cshtml";
+}
+
+<div class="col-12" id="ProductList">
+    <div class="row" id="EditForm">
+        <div class="row" id="EditTitle">
+            <h5>DELIVERY</h5>
+            <div class="row" id="line">
+                <button> <i class="fas fa-chevron-left"></i> </button>
+            </div>
+        </div>
+
+        <form Id="formEditProduct" enctype="multipart/form-data" method="post">
+            <div class="EditContainer">
+                <div class="col-xl-4" id="ProductIMG">
+                    <div id="container">
+                        <h5 style="padding-top:20px;padding-bottom:20px;border-bottom: 1px solid lightgrey;margin-bottom:20px;">DETAIL</h5>
+
+                        <div class="row" id="line">
+                            <label for="Text">Category ID</label>
+                            <input asp-for="@Model.dv.MaDv" id="pass" type="text" readonly>
+                            <span asp-validation-for="@Model.dv.MaDv"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Text">Category Name</label>
+                            <input asp-for="@Model.dv.TenDv" id="pass" type="text" readonly>
+                            <span asp-validation-for="@Model.dv.TenDv"></span>
+                        </div>
+                        <h4 style="padding-top:20px;
+                                    padding-bottom:20px;
+                                    border-bottom: 1px solid lightgrey;
+                                    margin-bottom:20px;">
+                            PRICE
+                        </h4>
+                        <div class="row" id="line">
+                            <label for="Text">City fee</label>
+                            <input asp-for="@Model.dv.GiaNoiThanh" id="pass" type="text" readonly>
+                            <span asp-validation-for="@Model.dv.TenDv"></span>
+                        </div>
+                        <div class="row" id="line">
+                            <label for="Text">Province fee</label>
+                            <input asp-for="@Model.dv.GiaNgoaiThanh" id="pass" type="text" readonly>
+                            <span asp-validation-for="@Model.dv.GiaNgoaiThanh"></span>
+                        </div>
+
+                        <div>
+                            <a asp-area="Admin" asp-controller="Delivery" asp-action="DeliveryEdit"
+                               asp-route-id="@Model.dv.MaDv">
+                                <i class="fas fa-pen"></i>
+                            </a>|
+                            <a asp-area="Admin" asp-controller="Delivery" asp-action="DeliveryDelete"
+                               asp-route-id="@Model.dv.MaDv">
+                                <i class="fas fa-trash-alt"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-xl-4 ">
+
+                </div>
+
+                <div class="col-xl-4 display">
+
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+

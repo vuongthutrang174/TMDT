@@ -1,0 +1,91 @@
+﻿
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+    @{
+        ViewData["Title"] = "Index";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+@model OnlineShopDemo.Models.UserModel.Client
+
+<div class="cart-table-area section-padding-100">
+
+    <div class="container-fluid">
+        <div class="row">
+
+
+            <div class="col-12 col-lg-4">
+                <div class="cart-title">
+                    <h2 class="Pro-text">Your Profile</h2>
+                </div>
+
+                <div class="cart-summary profile clearfix">
+
+                    <h5>Your infomation</h5>
+                    <ul class="summary-table">
+                        <li> <img class="info-img" src="/amado/img/product-img/pro-big-2.jpg">  <h2 class="pro-name">@Model.TenKH </h2></li>
+
+                        <li><span>SDT:</span> <span>@Model.sdt</span></li>
+                        <li><span>Email:</span> <span>@Model.Email</span></li>
+                    </ul>
+
+                    <a onclick="Open()" class="btn amado-btn w-100">Edit your profile</a>
+                    <a onclick="location.href='@Url.Action("UpdatePassWord","Profile")'" class="btn amado-btn w-100 active pass-change ">Change your password</a>
+
+                </div>
+                <input hidden asp-for="@Model.Password" hidden />
+            </div>
+            <div class="col-12 col-lg-8 pro-detail">
+                <div class="checkout_details_area mt-50 clearfix ">
+
+                    <form asp-action="Edit" asp-controller="Profile" method="post">
+                        <div class="row">
+                            <div class="col-12 mb-3">
+                                <h6>Name</h6>
+                                <input type="text" class="form-control" id="name" placeholder="Name" required asp-for="@Model.TenKH">
+                            </div>
+
+                            <input hidden asp-for="@Model.MaKH" />
+                            <div class="col-12 mb-3">
+                                <h6>Email</h6>
+                                <input type="email" class="form-control" id="email" placeholder="Email" asp-for="@Model.Email">
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <h6>Address</h6>
+                                <input type="text" class="form-control" id="street_address" placeholder="Address" asp-for="@Model.DiaChi">
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <h6>District</h6>
+                                <input type="text" class="form-control" id="dis" placeholder="District" asp-for="@Model.Quan">
+                            </div>
+
+
+                            <div class="col-12 mb-3">
+                                <h6>Phone No.</h6>
+                                <input type="text" class="form-control" id="sdt" placeholder="Phone Number" required asp-for="@Model.sdt">
+                            </div>
+                            <a asp-action="Edit" asp-controller="Profile" class="btn amado-btn w-100" type="submit" name="save">Save</a>
+                            <button type="submit">Submit</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script>
+    function Open() {
+        document.querySelector('.pro-detail').style.display = 'flex';
+    }
+    function Change() {
+        document.querySelector('.change-pass').style.display = 'flex';
+    }
+    function CloseP() {
+        document.querySelector('.change-pass').style.display = 'none';
+    }
+
+</script>

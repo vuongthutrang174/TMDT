@@ -1,0 +1,49 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model OnlineShopDemo.Models.UserModel.ProductViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+    <!-- Product Catagories Area Start -->
+    <div class="products-catagories-area clearfix">
+        <div class="amado-pro-catagory clearfix">
+            @foreach (var pro in Model.ProductList)
+            {
+                <!-- Single Catagory -->
+                <div class="single-products-catagory clearfix">
+                    <a asp-action="ProductDetail" asp-controller="ProductDisplay" asp-route-id="@pro.MaSP">
+                        <img src="~/@pro.Image" alt="">
+                        <!-- Hover Content -->
+                        <div class="hover-content">
+                            <div class="line"></div>
+                            <p>From @pro.Price</p>
+                            <h4>@pro.productName</h4>
+                        </div>
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+   
+    @*<tbody>
+
+                <tr>
+                    <td>@pro.MaSP</td>
+                    <td><img class="product-img" src="~/@pro.Image" alt="photo"></td>
+                    <td>
+                        <a asp-controller="Product" asp-action="DetailProduct"
+                           asp-route-id="@pro.MaSP"> @pro.productName </a>
+                    </td>
+                    <td>@pro.Price</td>
+                    <td>@pro.Stock</td>
+                    <td>
+                        <a asp-controller="Product" asp-action="DetailProduct"
+                           asp-route-id="@pro.MaSP">
+                            <i class="fas fa-cog"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>*@

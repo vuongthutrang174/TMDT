@@ -1,0 +1,207 @@
+﻿
+@model OnlineShopDemo.Controllers.ViewProductModel
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Product";
+    Layout = "~/Views/Share/_Layout.cshtml";
+}
+
+@section Form{
+    <div class="formAdd close" id="formAdd" >
+        <div class="col-12" id="OrderAndChart" >
+            <div class="row" id="Order"   >
+
+                <div id="AddForm-title">
+                    <h2 class="title"  >Add new product</h2>
+                    <i class="fas fa-times" onclick="OpenForm()"></i>
+                </div>
+
+                <div id="form">
+                    <form id="loginForm" method="post" asp-controller="Product" asp-action="Create" enctype="multipart/form-data" >
+                        <div id="container">
+
+                            <div class="row" id="line">
+
+                                <label for="Product Type">Product Type</label>
+                                <select asp-for="product.ProductType" required>
+                                    @foreach (var c in Model.CateList)
+                                    {
+                                      <option value="@c.CateID">@c.CateName</option>
+                                    }
+                                </select>
+                                <span asp-validation-for="product.ProductType"></span>
+
+
+                                @*<label for="UserName">Product Type</label>
+
+                                <select asp-for="product.ProductType" required>
+                                    <option value="1">Sofa</option>
+                                    <option value="2">Chair</option>
+                                    <option value="4">Table</option>
+                                    <option value="5">Plant</option>
+                                    <option value="6">Picture</option>
+                                    <option value="7">Light</option>
+                                    <option value="8">Waredore</option>
+                                </select>
+
+                                <span id="mess" asp-validation-for="product.ProductType"></span>*@
+                            </div>
+
+                            <div class="row" id="line">
+                                <label  for="text">Name</label>
+                                <input asp-for="product.productName" id="pass" type="text" placeholder="Product Name" repuired>
+                                <span id="mess" asp-validation-for="product.productName"></span>
+                            </div>
+                            <div class="row" id="line">
+                                <label for="Password">color</label>
+                          
+                                <select asp-for="product.color" required>
+                                    <option>Red</option>
+                                    <option>Yellow</option>
+                                    <option>Blue</option>
+                                    <option>Green</option>
+                                    <option>Orange</option>
+                                    <option>Purple</option>
+                                    <option>Black</option>
+                                    <option>White</option>
+                                    <option>Gray</option>
+                                </select>
+                                <span id="mess"  asp-validation-for="product.color"></span>
+                            </div>
+
+                            <div class="row" id="line">
+                                <label for="Password">Price</label>
+                                <input asp-for="product.Price" id="pass" type="text" placeholder="Price" repuired>
+                                <span asp-validation-for="product.Price"></span>
+                            </div>
+
+                            <div class="row" id="line">
+                                <label for="Password">Description</label>
+                                <textarea asp-for="product.Description" cols="30" rows="10" required></textarea>
+                                <span id="mess" asp-validation-for="product.Description"></span>
+                            </div>
+
+                            <div class="row" id="line">
+                                <label for="Image">Image</label>
+                                <input type="file" name="pic" id="fileupload" required>
+                                <span  id="mess" asp-validation-for="product.Image" ></span>
+                            </div>
+
+                            <div class="row" id="line">
+                                <button type="submit" id="btn">Save</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+<div class="col-12" id="ProductList">
+
+    <div class="row" id="ProductFilter">
+
+        <div class="col-9 fBtn">
+            <h5>PRODUCT</h5>
+            <div style=" display:flex; flex-direction: row;">
+                    <div id="addnew" onclick="OpenForm()">
+                        <button class="FilterBtn">
+                            Add new
+                        </button>
+                    </div>
+                    <div id="addnew"  onclick="OpenFilter()">
+                        <button class="FilterBtn">
+                            Advanced Filter
+                        </button>
+                    </div>
+                </div>
+        </div>
+
+        <div class="col-3 fBtn">
+            <div id="searchProduct" class="searchbox">
+                <i class="fas fa-search"></i>
+                <input id="SerchBox" onkeyup="myFunction()" type="text" placeholder="Search...">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row CloseFilter" id="Filter">
+
+        <div class="col-2 "></div>
+
+        <div class="col-6 advanced">
+
+            <div >
+                <select class="CloseOption" id="FilterOption1">
+                    <option value="volvo">Color</option>
+                </select>
+            </div>
+
+            <div class="">
+                <select class="CloseOption" id="FilterOption2">
+                    <option value="volvo">Price</option>
+                    <option value="saab">100$</option>
+                </select>
+            </div>
+
+            <div class="">
+                <select class="CloseOption" id="FilterOption3">
+                    <option value="volvo">Sort</option>
+                    <option value="volvo">Alphabet</option>
+                    <option value="saab">Lastest Modify</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="col-1 fBtn"></div>
+
+        <div class="col-3 fBtn"></div>
+
+    </div>
+
+
+    <div class="row" id="List">
+
+        <div id="ProductTable">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="table-title">ID</th>
+                        <th class="table-title">Image</th>
+                        <th class="table-title">Name</th>
+                        <th class="table-title">Price</th>
+                        <th class="table-title">Stock</th>
+                        <th class="table-title">Edit/Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var pro in Model.ProductList)
+                    {
+                        <tr>
+                            <td>@pro.MaSP</td>
+                            <td><img class="product-img" src="~/@pro.Image" alt="photo"></td>
+                            <td>@pro.productName </td>
+                            <td>@pro.Price</td>
+                            <td>@pro.Stock</td>
+                            <td>
+                                <a asp-controller="Product" asp-action="DetailProduct"
+                                   asp-route-id="@pro.MaSP">
+                                    <i class="fas fa-cog"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+

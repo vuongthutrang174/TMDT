@@ -1,0 +1,92 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@model  OnlineShopDemo.Models.ViewModel.OrderViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Share/_Layout.cshtml";
+}
+
+<div class="col-12" id="ProductList">
+
+    <div class="row" id="ProductFilter">
+
+        <div class="col-9 fBtn">
+            <h5 class="title"  >PRODUCT</h5>
+            <div style=" display:flex; flex-direction: row;">
+                <div id="addnew" onclick="OpenForm()">
+                    <button class="FilterBtn">
+                        Add new
+                    </button>
+                </div>
+                <div id="addnew" onclick="OpenFilter()">
+                    <button class="FilterBtn">
+                        Advanced Filter
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-3 fBtn">
+            <div id="searchProduct" class="searchbox">
+                <i class="fas fa-search"></i>
+                <input id="SerchBox" onkeyup="myFunction()" type="text" placeholder="Search...">
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="row" id="List">
+
+        <div id="ProductTable">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="table-title">ID</th>
+                        <th class="table-title">Date</th>
+                        <th class="table-title">Customer</th>
+                        <th class="table-title">Price</th>
+                        <th class="table-title">Phone</th>
+                        <th class="table-title">Check</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.DSDH.Count == 0)
+                    {
+                        <tr>
+                            <td style="font-weight:bold; font-size: 20px;">NO ORDER LEFT</td>
+                        </tr>
+                    }
+                    else
+                    {
+                            @foreach (var ord in Model.DSDH)
+                            {
+                                <tr>
+                                    <td>@ord.MaDH</td>
+                                    <td>@ord.NgayDat </td>
+                                    <td>@ord.TenKH </td>
+                                    <td>@ord.TongTien</td>
+                                    <td>@ord.sdt</td>
+                                    <td>
+                                        <a asp-controller="Order" asp-action="OrderDetail"
+                                           asp-route-id="@ord.MaDH">
+                                            <i class="fas fa-cog"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+
+                    }
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+
+</div>
+
+
+
+

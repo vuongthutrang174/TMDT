@@ -1,0 +1,136 @@
+﻿@model OnlineShopDemo.Models.ViewModel.AccountViewModel
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "AdAccountEdit";
+    Layout = "~/Views/Share/_Layout.cshtml";
+     TempData.Keep("Username");
+}
+
+<div class="col-12" id="ProductList">
+
+    <div class="row" id="EditForm">
+        <div class="row" id="EditTitle">
+            <h5>Account</h5>
+        </div>
+        <form Id="formEditProduct" enctype="multipart/form-data" method="post" asp-controller="Account" asp-action="EditAsync">
+
+            <div class="EditContainer">
+
+                <div class="col-xl-4 display">
+                    <div class="col-xl-4 display" id="ProductIMG">
+                        <img src="~/@Model.Info.image" alt="photo">
+                    </div>
+                    <div class="row" id="line">
+                        <input asp-for="@Model.Password" id="pass" type="text" hidden>
+                    </div>
+                    <div class="row" id="line">
+                        <input asp-for="@Model.Info.image" id="pass" type="text" hidden>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 ">
+                    <div id="container">
+
+                        <div class="row" id="line">
+                            <label for="Text">Name</label>
+                            <input asp-for="Info.TenKH" id="pass" type="text" required>
+                            <span asp-validation-for="Info.TenKH"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Text">DOB</label>
+                            <input asp-for="Info.NamSinh" id="pass" type="text" required>
+                            <span asp-validation-for="Info.NamSinh"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Text">Address</label>
+                            <input asp-for="Info.DiaChi" id="pass" type="text" required>
+                            <span asp-validation-for="Info.DiaChi"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Text">District</label>
+                            <input asp-for="Info.Quan" id="pass" type="text" required>
+                            <span asp-validation-for="Info.Quan"></span>
+                        </div>
+
+
+                        <div class="row" id="line">
+                            <label for="Text">City</label>
+                            <input asp-for="Info.ThanhPho" id="pass" type="text" required>
+                            <span asp-validation-for="Info.ThanhPho"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Text">Product Name</label>
+                            <input asp-for="Info.sdt" id="pass" type="text">
+                            <span asp-validation-for="Info.sdt"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Image">Change Image</label>
+                            <input type="file" name="pic" value="fileupload" id="fileupload">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4" id="ProductIMG">
+                    <div id="container">
+
+                        <div class="row" id="line">
+                            <label for="Text">Username</label>
+                            <input asp-for="@Model.Account.Username" id="pass" type="text" readonly>
+                            <span asp-validation-for="@Model.Account.Username"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Text">E-mail</label>
+                            <input asp-for="@Model.Account.Email" id="pass" type="text" readonly>
+                            <span asp-validation-for="@Model.Account.Email"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Text">Authority</label>
+                            <input asp-for="@Model.Account.QuyenTruyCap" id="pass" type="text" readonly>
+                            <span asp-validation-for="@Model.Account.QuyenTruyCap"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Text">New Password</label>
+                            <input asp-for="@Model.NewPassword" id="pass" type="text" required>
+                            <span asp-validation-for="@Model.NewPassword"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Text">Verify New Password</label>
+                            <input asp-for="@Model.NewPasswordVerify" id="pass" type="text" required>
+                            <span asp-validation-for="@Model.NewPasswordVerify"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Text">Verify Password</label>
+                            <input asp-for="@Model.OldPasswordVerify" id="pass" type="text" required>
+                            <span asp-validation-for="@Model.OldPasswordVerify"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <button type="submit" id="SaveBtn"> EDIT </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+
+
+
+
+

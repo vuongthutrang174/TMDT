@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Share/_Layout.cshtml";
+}
+
+@model OnlineShopDemo.Models.ViewModel.CategoryViewModel
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+    <div class="col-12" id="ProductList">
+
+        <div class="row" id="ProductFilter">
+
+            <div class="col-9 fBtn">
+                <h5>CATEGORY</h5>
+                <div style=" display:flex; flex-direction: row;">
+                    <div id="addnew">
+                        <a asp-area="Admin" asp-controller="Delivery" asp-action="DeliveryCreate">
+                            <i class="fas fa-plus"></i> Add new
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 fBtn">
+                <div id="searchProduct" class="searchbox">
+                    <i class="fas fa-search"></i>
+                    <input id="SerchBox" onkeyup="myFunction()" type="text" placeholder="Search...">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row" id="List">
+
+            <div id="ProductTable">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="table-title">ID</th>
+                            <th class="table-title">Name</th>
+                            <th class="table-title">Edit/Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var productType in Model.CategoryList)
+                        {
+                            <tr>
+                                <td>@productType.CateID</td>
+                                <td>@productType.CateName </td>
+                                <td>
+                                    <a asp-area="Admin" asp-controller="Category" asp-action="CategoryDetail"
+                                       asp-route-id="@productType.CateID">
+                                        <i class="fas fa-cog"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+
+

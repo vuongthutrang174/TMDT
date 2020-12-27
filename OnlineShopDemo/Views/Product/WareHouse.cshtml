@@ -1,0 +1,79 @@
+﻿@model OnlineShopDemo.Models.warehouseModel
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "WareHouseEdit";
+    Layout = "~/Views/Share/_Layout.cshtml";
+}
+
+<div class="col-12" id="ProductList">
+
+    <div class="row" id="EditForm">
+
+        <div class="row" id="EditTitle">
+
+            <div class="col-9 fBtn">
+                <h5>Warehouse</h5>
+                <div style=" display:flex; flex-direction: row;">
+                    <div id="addnew" onclick="OpenForm()">
+
+                    </div>
+                    <div id="addnew" onclick="OpenFilter()">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 fBtn">
+                <div id="searchProduct" class="searchbox">
+                    <i class="fas fa-search"></i>
+                    <input id="SerchBox" onkeyup="myFunction()" type="text" placeholder="Search...">
+                </div>
+            </div>
+        </div>
+
+        <form Id="formEditProduct" enctype="multipart/form-data" method="post"
+              asp-controller="Product" asp-action="WareHouseUpdate">
+
+            <div class="EditContainer">
+             
+                <div class="col-xl-4 ">
+                    <div id="container">
+
+                        <div class="row" id="line">
+                            <label for="Text">Product ID</label>
+                            <input asp-for="@Model.MaSp" id="pass" type="text" readonly>
+                            <span asp-validation-for="@Model.MaSp"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Text">Product Name</label>
+                            <input asp-for="@Model.TenSP" id="pass" type="text" readonly>
+                            <span asp-validation-for="@Model.TenSP"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Text">Product Name</label>
+                            <input asp-for="@Model.soluong" id="pass" type="text">
+                            <span asp-validation-for="@Model.soluong"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <button type="submit" id="SaveBtn"> Update </button>
+                        </div>
+
+                    </div>
+                    </div>
+
+                
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+

@@ -1,0 +1,79 @@
+﻿@model OnlineShopDemo.Models.SignUpModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fur</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="~/Admin/SignUp/layoutSignUp.css">
+</head>
+
+<body>
+    <div class="row" id="intro">
+        <div class="col-xl-2"></div>
+        <div class="col-xl-8" id="main-contain">
+            <h1>Different by Design</h1>
+
+            <p>
+                We find the best independent designers and makers
+                around the world to create your pieces.
+                Producing designs in small batches keeps costs low -
+                and we think it’s a more responsible way of working.
+                From potters in Portugal to needle-workers in Nottingham,
+                discover how your items get MADE.We find the best independent designers and makers
+                around the world to create your pieces.
+                Producing designs in small batches keeps costs low -
+                and we think it’s a more responsible way of working.
+                From potters in Portugal to needle-workers in Nottingham,
+                discover how your items get MADE.
+            </p>
+        </div>
+        <div class="col-xl-2"></div>
+    </div>
+
+    <form id="loginForm" method="post" action="@Url.Action("SignUp", "Login")">
+
+        <div id="container">
+
+            <div class="row">
+                <h1>Login to continue</h1>
+            </div>
+            
+            <div class="row" id="UName">
+                <label for="UserName">UserName</label>
+                <input asp-for="Username" id="Name" type="text" placeholder="Username" repuired>
+                <span id="val"  asp-validation-for="Username"></span>
+            </div>
+
+            <div class="row" id="UName">
+                <label for="Email">Email</label>
+                <input  asp-for="Email" id="mail" type="text" placeholder="Email" repuired>
+                <span id="val" asp-validation-for="Email"></span>
+            </div>
+
+            <div class="row" id="pass">
+                <label for="Password">Password</label>
+                <input  asp-for="Password" id="pass" type="password" placeholder="Password" repuired>
+                <span id="val"  asp-validation-for="Password"></span>
+            </div>
+
+            <div class="row" id="pass">
+                <label for="Password">Password</label>
+                <input asp-for="PasswordVerify" id="pass" type="password" placeholder="Password Verify" repuired>
+                <span id="val"   asp-validation-for="PasswordVerify"></span>
+            </div>
+
+            <div class="row" id="Btn">
+                <button type ="submit" id="btn">Sign up</button>
+            </div>
+
+        </div>
+    </form>
+</body>
+
+</html>

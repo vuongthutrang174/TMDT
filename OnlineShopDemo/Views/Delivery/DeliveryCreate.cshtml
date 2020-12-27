@@ -1,0 +1,86 @@
+﻿
+@{
+    ViewData["Title"] = "DeliveryCreate";
+    Layout = "~/Views/Share/_Layout.cshtml";
+}
+
+@model OnlineShopDemo.Models.ViewModel.DeliveryViewModel
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+<div class="col-12" id="ProductList">
+
+
+    <div class="row" id="EditForm">
+
+        <div class="row" id="EditTitle">
+            <h5>DELIVERY</h5>
+            <div class="row" id="line">
+                <button> <i class="fas fa-chevron-left"></i> </button>
+            </div>
+        </div>
+
+
+        <form Id="formEditProduct" enctype="multipart/form-data" method="post" asp-controller="Delivery" asp-action="Create">
+            <div class="EditContainer">
+                <div class="col-xl-4" id="ProductIMG">
+                    <div id="container">
+                        <h5 style="padding-top:20px;padding-bottom:20px;border-bottom: 1px solid lightgrey;margin-bottom:20px;">CREATE</h5>
+
+                        <div class="row" id="line">
+                            <label for="Text">Category Name</label>
+                            <input asp-for="@Model.dv.TenDv" id="pass" type="text" required>
+                            <span asp-validation-for="@Model.dv.TenDv"></span>
+                        </div>
+
+                        <h4 style="padding-top:20px;
+                                    padding-bottom:20px;
+                                    border-bottom: 1px solid lightgrey;
+                                    margin-bottom:20px;">
+                            PRICE
+                        </h4>
+
+                        <div class="row" id="line">
+                            <label for="Text">City fee</label>
+                            <input asp-for="@Model.dv.GiaNoiThanh" id="pass" type="text" required>
+                            <span asp-validation-for="@Model.dv.GiaNoiThanh"></span>
+                        </div>
+                        <div class="row" id="line">
+                            <label for="Text">Province fee</label>
+                            <input asp-for="@Model.dv.GiaNgoaiThanh" id="pass" type="text" required>
+                            <span asp-validation-for="@Model.dv.GiaNgoaiThanh"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <button type="submit" id="SaveBtn"> CREATE </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-xl-4 ">
+
+                </div>
+
+                <div class="col-xl-4 display">
+
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+

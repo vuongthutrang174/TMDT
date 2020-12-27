@@ -1,0 +1,89 @@
+
+#ProductList #EditTitle {
+    width: 98%;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    margin-top: 1.4%;
+    border-bottom: 1px solid black;
+}
+
+#ProductList #EditForm {
+    width: 99%;
+    height: 660px;
+    background: white;
+    box-sizing: border-box;
+    margin: 0 auto;
+    box-shadow: 5px 1px 10px black;
+    border-radius: 5px;
+    margin: 0.5%;
+}
+
+#formEditProduct {
+    width: 100%;
+    padding: 10px;
+}
+
+    #formEditProduct input, Select, textarea {
+        border: none;
+        color: gray;
+        border-radius: 0px;
+        border-bottom: 1px solid lightgrey;
+    }
+
+.EditContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#formEditProduct img {
+    width: 350px;
+    height: 530px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+#container {
+    height: 100%;
+}
+
+#fileupload {
+    width: 313.89px;
+}
+
+#formEditProduct textarea {
+    height: 80px;
+}
+
+#formEditProduct .col-xl-4 {
+    padding: 10px;
+    margin: 0;
+}
+
+#EditTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    #EditTitle button {
+        color: #252525;
+        background: none;
+        border: none;
+        font-weight: bold;
+    }
+
+#SaveBtn {
+    height: 35px;
+    margin-top: 19px;
+}
+#formEditProduct span
+{
+    color: red;
+    min-height: 24px;
+}

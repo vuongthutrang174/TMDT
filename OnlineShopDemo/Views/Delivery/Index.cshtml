@@ -1,0 +1,76 @@
+﻿@model OnlineShopDemo.Models.ViewModel.DeliveryViewModel
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Share/_Layout.cshtml";
+}
+
+
+<div class="col-12" id="ProductList">
+
+
+
+        <div class="row" id="ProductFilter">
+
+            <div class="col-9 fBtn">
+                <h5>DILIVERY</h5>
+                <div style=" display:flex; flex-direction: row;">
+                    <div id="addnew">
+                        <a asp-area="Admin" asp-controller="Delivery" asp-action="DeliveryCreate">
+                            <i class="fas fa-plus"></i> Add new
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 fBtn">
+                <div id="searchProduct" class="searchbox">
+                    <i class="fas fa-search"></i>
+                    <input id="SerchBox" onkeyup="myFunction()" type="text" placeholder="Search...">
+                </div>
+            </div>
+
+        </div>
+        
+
+
+    <div class="row" id="List">
+
+        <div id="ProductTable">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="table-title">ID</th>
+                        <th class="table-title">Name</th>
+                        <th class="table-title">Province Fee</th>
+                        <th class="table-title">City Fee</th>
+                        <th class="table-title">Modify</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var d in Model.DS)
+                    {
+                    <tr>
+                        <td>@d.MaDv</td>
+                        <td>@d.TenDv </td>
+                        <td>@d.GiaNoiThanh </td>
+                        <td>@d.GiaNgoaiThanh </td>
+                        <td>
+                            <a asp-area="Admin" asp-controller="Delivery" asp-action="DeliveryDetail"
+                               asp-route-ID="@d.MaDv">
+                                <i class="fas fa-cog"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+
+

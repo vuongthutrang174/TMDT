@@ -1,0 +1,74 @@
+﻿@model OnlineShopDemo.Models.UserModel.Bill
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using Microsoft.AspNetCore.Http
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div class="cart-table-area section-padding-100">
+    <form method="post">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-12 col-lg-8">
+                    <div class="cart-title mt-50">
+                        <h2>Shopping Cart</h2>
+                    </div>
+                    <div class="cart-table clearfix">
+                        <table class="table table-responsive">
+                            <thead>
+                                <tr>
+
+                                    <th></th>
+                                    <th>Name</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+
+                                </tr>
+                            </thead>
+                          
+                                @for (int i = 0; i < Model.Select.Count; i++)
+                                {
+                                    <tbody>
+                                        <tr>
+                                            <input asp-for="@Model.Select[i].proDisplay.MaSP" hidden />
+                                            <td class="cart_product_img">
+                                                <a href="#"><img src="/@Model.Select[i].proDisplay.Image" alt="Product"></a>
+                                            </td>
+                                            <td class="cart_product_desc">
+                                                <h5> @Model.Select[i].proDisplay.productName</h5>
+                                            </td>
+                                            <td class="price" id="price">
+
+                                                <span> @Model.Select[i].proDisplay.Price </span>
+
+                                            </td>
+                                            <td class="qty">
+                                                <div class="qty-btn d-flex">
+                                                    <div class="quantity">
+                                                        <input type="submit" hidden />
+                                                        <input asp-for="@Model.Select[i].Soluong" type="number" class="qty-text" id='qty' min="0" max="@Model.Select[i].proDisplay.Conlai" step="1" pattern="[0-9]*" />
+                                                    </div>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+
+                                    </tbody>
+
+                                }
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <button class="amado-btn" type="submit" asp-controller="Checkout" asp-action="Checkout">Checkout</button>
+    </form>
+</div>
+<script>
+
+
+</script>

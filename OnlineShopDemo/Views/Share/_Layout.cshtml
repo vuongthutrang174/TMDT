@@ -1,0 +1,116 @@
+﻿@using Microsoft.AspNetCore.Http;
+@using OnlineShopDemo.Extensions
+@using OnlineShopDemo.Models;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Funiture</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&display=swap&subset=vietnamese"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,800,800i&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="~/Admin/DashBoard/css/DashboardStyle.css">
+    <link rel="stylesheet" href="~/Admin/DashBoard/css/ProductStyle.css">
+    <link rel="stylesheet" href="~/Admin/DashBoard/css/LayoutStyle1.css">
+    <link rel="stylesheet" href="~/Admin/DashBoard/css/EditProductStyle1.css">
+    <link rel="stylesheet" href="~/Admin/DashBoard/css/Statistic1.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js" integrity="sha256-sPB0F50YUDK0otDnsfNHawYmA5M0pjjUf4TvRJkGFrI="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.js"
+            integrity="sha256-XNNC8ESw29iopRLukVRazlP44TxnjGmEQanHJ5kHmtk=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="AdminContent">
+
+        <div class="layer close" id="layer" onclick="OpenForm()">
+        </div>
+        @{
+             AccountInfoModel Admin = Context.Session.Get<AccountInfoModel>("AdminName");
+        }
+        <div class="col-2" id="func">
+            <div class="row" id="avt">
+                <img src="~/@Admin.image" alt="photo">
+            </div>
+            <div class="row" id="btns">
+                <ul>
+                    <li class="Botborder"><a asp-controller="DashBoard" asp-action="Home"><i class="fas fa-money-check"></i>DASH BOARD</a></li>
+                    <li class="Botborder"><a asp-controller="Statistical" asp-action="Index"><i class="fas fa-chart-bar"></i> STATISTICAL</a></li>
+                    <li class="Botborder"><a asp-controller="Order" asp-action="Index"><i class="fas fa-chart-bar"></i> ORDER</a></li>
+                    <li class="Botborder"><a asp-controller="Product" asp-action="Index"><i class="fas fa-couch"></i> PRODUCT</a></li>
+                    <li class="Botborder"><a asp-controller="Account" asp-action="Index"><i class="fas fa-user"></i>ACCOUNT</a></li>
+                    <li class="Botborder"><a asp-controller="Category" asp-action="Index"><i class="fas fa-shopping-cart"></i>CATEGORY</a></li>
+                    <li class="Botborder"><a asp-controller="Delivery" asp-action="Index"><i class="fas fa-shipping-fast"></i> DELIVERY</a></li>
+                    <li><a asp-controller="Authorize" asp-action="Index"><i class="fas fa-users-cog"></i> AUTHORIZE</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        @RenderSection("Form", required: false)
+
+        <div class="row" id="MainContent">
+
+
+            <div class="col-10" id="Main-content">
+
+                <div class="row" id="nav">
+                    <div class="row" id="nav">
+
+                        <div class="col-xl-2" id="Logo">
+                            <img src="~/Admin//DashBoard//img/logo.png" alt="photo">
+                        </div>
+
+                        <div class="col-xl-6" id="search">
+
+                        </div>
+
+                        <div class="col-xl-4" id="User">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="far fa-envelope"></i></a>
+                            <a href=""><i class="far fa-bell"></i></a>
+                            <a asp-controller="Login" asp-action="Logout"><i class="fas fa-sign-out-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                @RenderBody()
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+    <script src="~/Admin/DashBoard/Js/openForm.js"></script>
+    <script src="~/Admin/DashBoard/Js/OpenFilter.js"></script>
+    <script src="~/Admin/DashBoard/Js/script.js"></script>
+</body>
+
+</html>

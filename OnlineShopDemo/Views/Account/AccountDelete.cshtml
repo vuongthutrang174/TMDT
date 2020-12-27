@@ -1,0 +1,70 @@
+﻿
+@model OnlineShopDemo.Models.ViewModel.AccountViewModel
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "AdAccountDelete";
+    Layout = "~/Views/Share/_Layout.cshtml";
+    TempData.Keep("Username");
+}
+
+<div class="col-12" id="ProductList">
+
+    
+    <div class="row" id="EditForm">
+        <form Id="formEditProduct" enctype="multipart/form-data" method="post" asp-controller="Account" asp-action="Delete">
+            <div class="row" id="EditTitle">
+
+            </div>
+            <div class="EditContainer">
+                <div class="col-xl-4" id="ProductIMG">
+                    <div id="container">
+                        <h5 style="margin-bottom: 10px;padding-bottom:10px;border-bottom: 1px solid lightgrey;">DELETE</h5>
+                        <div class="row" id="line">
+                            <label for="Text">Username</label>
+                            <input asp-for="@Model.Account.Username" id="pass" type="text" readonly>
+                            <span asp-validation-for="@Model.Account.Username"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Text">Authority</label>
+                            <input asp-for="@Model.Account.QuyenTruyCap" id="pass" type="text" readonly>
+                            <span asp-validation-for="@Model.Account.QuyenTruyCap"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <label for="Text">Verify Password</label>
+                            <input asp-for="@Model.OldPasswordVerify" id="pass" type="text" required>
+                            <span asp-validation-for="@Model.OldPasswordVerify"></span>
+                        </div>
+
+                        <div class="row" id="line">
+                            <button type="submit" id="SaveBtn"> DELETE </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-xl-4 ">
+                    <div class="row" id="line">
+                        <input asp-for="@Model.Password" id="pass" type="text" hidden>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 display">
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+
+
+
+
+
+

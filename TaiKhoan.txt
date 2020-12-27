@@ -1,0 +1,6 @@
+Admin: 
+tk: admin1 
+mk: 123
+User:
+tk: huy123
+mk: 1234
